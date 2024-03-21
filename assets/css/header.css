@@ -1,0 +1,40 @@
+
+ img{
+    width: 100px;
+    height: 100px;
+}
+.logo-brand{
+    position: relative;
+}
+.logo-brand h4{
+    font-size: 1.3rem;
+    font-weight: 530;
+}
+.logout{
+    width: 35px;
+    height: 35px;
+    background-color: gold;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ul-text{
+    color: rgb(156, 155, 155);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+}
+.navlinks{
+    border-bottom: 2px solid rgb(198, 198, 198);
+}
+.navlinks li i{
+    display: none;
+}
+@media(max-width:900px){
+    .navlinks li i{
+        display: block;
+    }
+    .nav-l{
+        display: none;
+    }
+}

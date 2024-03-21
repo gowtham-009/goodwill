@@ -1,0 +1,46 @@
+.container{
+   height: auto;
+   display: flex;
+   display: flex;
+}
+.login-box-1{
+   width: 100%;
+
+
+  
+}
+.login-box-1 img{
+   height: 650px;
+}
+.login-box-2{
+   width: 45%;
+   height: auto;
+  
+  
+}
+.form-log{
+   height: 80px;
+   overflow-y: hidden;
+}
+.create-account p{
+   color: rgb(154, 154, 154);
+}
+.btn-log{
+   background-color: #5D6BC4;
+   font-size: 1.50rem;
+}
+@media (max-width:992px) {
+   .container{
+      flex-wrap: wrap;
+   }
+   .login-box-2{
+      width: 100%;
+      order: 1;
+   }
+   .login-box-1{
+      order: 2;
+   }
+   .create-account{
+      flex-wrap: wrap;
+   }
+}
